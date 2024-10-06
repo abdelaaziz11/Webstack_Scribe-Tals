@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --hearder-background-color:rgba(51, 65, 87, 0.831);
+    --body-background-color: #ffffff;
+    --text-color: #ffffff;
+    --nav-color: #000000;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: #ffffff;
+    --search-text: #000000;
+    --button-text-color: #ffffff;
+    --button-background-color: #000000;
+    --a-hover-color: #1b223a;
+    --section-color: #000000;
+    --footer-text-color: #000000;
+    --footer-background-color: rgb(247, 240, 230);
+    --h1-color-story: #000000;
+    --body-story-background-color: #fcefe3;
+}
+
+body {
+    height: 100vh;
+}
+
+body.dark-mode{
+    --hearder-background-color:rgba(12, 12, 38, 0.879);
+    --body-background-color: #1d2237;
+    --text-color: #ffffff;
+    --nav-color: #ffffff;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: rgb(0, 0, 0);
+    --search-text: #ffffff;
+    --button-text-color: #ffffff;
+    --button-background-color: #344cffd2;
+    --a-hover-color: #0083f5;
+    --section-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --footer-background-color: #000000;
+    --h1-color-story: #ffffff;
+    --body-story-background-color: #1d2237;
+}
+
+/* STORY */
+.story-section {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--body-story-background-color);
+}
+
+.story- h1 {
+    margin: 50px 0px 20px 20px;
+    color: var(--h1-color-story);
+    font-size: 3rem;
+}
+.story {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.story-form {
+    display: flex;
+    flex-direction: column;  
+}
+.story-form textarea {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.send-btn {
+    width: 90px;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: var(--button-background-color);
+    /* background-color: #0045f5; */
+    color: #ffffff;
+    cursor: pointer;
+}
+.send-btn:hover {
+    /* background-color: #0083f5; */
+    background-color: var(--a-hover-color);
+}
+.image img {
+    /* height: 80vh;
+    width: 50vh; */
+    margin-top: 50px;
+    border-radius: 10px;
+}

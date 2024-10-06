@@ -1,0 +1,33 @@
+.about-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--body-story-background-color);
+}
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+}
+.about h1 {
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: var(--nav-color);
+}
+.about span {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+    color: var(--nav-color);
+}
+.about p {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--nav-color);
+}
+.about img {
+    height: 350px;
+    margin-bottom: 15px;
+}

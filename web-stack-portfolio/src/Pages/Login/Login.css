@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --hearder-background-color:rgba(51, 65, 87, 0.831);
+    --body-background-color: #ffffff;
+    --text-color: #ffffff;
+    --nav-color: #000000;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: #ffffff;
+    --search-text: #000000;
+    --button-text-color: #ffffff;
+    --button-background-color: #000000;
+    --a-hover-color: #1b223a;
+    --section-color: #000000;
+    --footer-text-color: #000000;
+    --footer-background-color: rgb(247, 240, 230);
+    --form-background-color: rgb(131, 148, 148);
+    --login-background: #c6c6c6;
+}
+
+
+body.dark-mode{
+    --hearder-background-color:rgba(12, 12, 38, 0.879);
+    --body-background-color: #1d2237;
+    --text-color: #ffffff;
+    --nav-color: #ffffff;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: rgb(0, 0, 0);
+    --search-text: #ffffff;
+    --button-text-color: #ffffff;
+    --button-background-color: #344cffd2;
+    --a-hover-color: #0083f5;
+    --section-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --footer-background-color: #000000;
+    --form-background-color: rgb(86, 104, 104);
+    --login-background: #1d2237;
+}
+
+/* Login page */
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--login-background);
+    height: 92.1vh;
+}
+.form-page {
+    height: 450px;
+    width: 380px;
+    background-color: var(--form-background-color);
+    border-radius: 12px;
+}
+
+/* form */
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+}
+.form h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.form input {
+    margin: 8px 40px 15px 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.form label {
+    margin-top: 5px;
+    text-align: center;
+}
+.form .button-login {
+    margin: 10px 155px;
+    padding: 10px 5px;
+    font-size: 16px;
+    background-color: rgb(0, 94, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.form .button-login:hover {
+    background-color: rgb(0, 115, 255);
+}
+
+.form .btn-login-email {
+    margin: 10px 100px 0px 100px;
+    padding: 10px 5px;
+    font-size: 16px;
+    background-color: rgb(185, 186, 187);
+    border: none;
+    border-radius: 5px;
+}
+
+.form .btn-login-email:hover {
+    background-color: rgb(117, 126, 138);
+}
+
+.form .hr-div {
+    margin: 10px 0px;
+}
+.form .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+.form .register-link a {
+    color: inherit;
+}
+.form .register-link a:hover {
+    color: rgb(1, 59, 131);
+}

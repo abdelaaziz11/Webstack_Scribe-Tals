@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --hearder-background-color:rgba(51, 65, 87, 0.831);
+    --body-background-color: #ffffff;
+    --text-color: #ffffff;
+    --nav-color: #000000;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: #ffffff;
+    --search-text: #000000;
+    --button-text-color: #ffffff;
+    --button-background-color: #000000;
+    --a-hover-color: #1b223a;
+    --section-color: #000000;
+    --footer-text-color: #000000;
+    --footer-background-color: rgb(247, 240, 230);
+    --form-background-color: rgb(131, 148, 148);
+    --login-background: #c6c6c6;
+}
+
+
+body.dark-mode{
+    --hearder-background-color:rgba(12, 12, 38, 0.879);
+    --body-background-color: #1d2237;
+    --text-color: #ffffff;
+    --nav-color: #ffffff;
+    --side-color:#ffffff;
+    --body-color: #ffffff;
+    --search-bar: rgb(0, 0, 0);
+    --search-text: #ffffff;
+    --button-text-color: #ffffff;
+    --button-background-color: #344cffd2;
+    --a-hover-color: #0083f5;
+    --section-color: #ffffff;
+    --footer-text-color: #ffffff;
+    --footer-background-color: #000000;
+    --form-background-color: rgb(86, 104, 104);
+    --login-background: #1d2237;
+}
+
+.regester-page {
+    margin: 0;
+    padding: 0;
+    background-color: var(--login-background);
+    height: 90vh;
+}
+/* form page */
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--footer-text-color);
+}
+.register-form h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.register-form input {
+    margin: 8px 40px 15px 40px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: black solid 1px;
+    outline: none;
+    width: 300px;
+}
+.register-form label {
+    margin-top: 5px;
+}
+.register-form .button-login {
+    margin: 10px 155px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: rgb(0, 94, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.register-form .button-login:hover {
+    background-color: rgb(0, 115, 255);
+}
+
+
+.register-form .login-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -5px;
+}
+.register-form .login-link a {
+    color: inherit;
+}
+.register-form .login-link a:hover {
+    color: rgb(1, 59, 131);
+}
